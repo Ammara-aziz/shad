@@ -1,0 +1,17 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 15px solid #9BBEC8;
+    border-left: 15px solid #427D9D;
+    border-radius: 50%;
+    background-color: rgb(56, 119, 119);
+    animation: spin  1s ease-in-out 0.5s infinite normal;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg) ;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

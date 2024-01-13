@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav {
+    height: 60px;
+    background-color: #0f1111;
+    color: aliceblue;
+    display:block;
+}
+.navlog{
+    height: 50px;
+    width: 100px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.logo{
+    height: 50px;
+    background-image: url("chat-0.jpg");
+    width: 14.5%;
+    background-size: cover;
+}
+/** box2 **/
+.add-1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+}
+.add-2{
+    color: white;
+    font-size: 1rem;
+}
+.add-icon {
+    display: flex;
+    align-content: baseline;
+}
+/* button{
+    background-color: #f08804;
+}
+
+ 
+
+a{
+    margin-right: 175px;
+    text-decoration: none;
+} 
+
+
+footer{color: azure;
+    text-align: center;
+background-color: black;}*/
